@@ -27,9 +27,9 @@ int main()
   xml.getName();                     //get tag name
   xml.getAtrValue(int);              //get attribute value with position 
   xml.getAtrValue(std::string);      //get attribute value with attribute name
-	xml.getAtrLenght();                //get attribute's tag lenght
-	xml.getAtrName(int);               //get attribute name given the position
-	xml.getChildeName(int);            //get subtag name given the position
-	xml.getChildeSize();               //get subtags number
+  xml.getAtrLenght();                //get attribute's tag lenght
+  xml.getAtrName(int);               //get attribute name given the position
+  xml.getChildeName(int);            //get subtag name given the position
+  xml.getChildeSize();               //get subtags number
 }
 ```
